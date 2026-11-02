@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102c2a">
+  <title>Kenchain Groups | Stays, Trips & Logistics</title>
+  <meta name="description" content="Book a comfortable stay, plan a trip, explore adventures, and send parcels with Kenchain Groups.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/react.css">
+  <!-- React 18 + htm are loaded as ES modules, so no Node/npm build step is needed. -->
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://esm.sh/react@18.3.1",
+      "react-dom/client": "https://esm.sh/react-dom@18.3.1/client?deps=react@18.3.1",
+      "htm": "https://esm.sh/htm@3.1.1"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="root">
+    <div class="splash" aria-label="Loading Kenchain Groups"><span class="brand-mark">K</span><p>Loading your journey…</p></div>
+  </div>
+  <noscript><p style="padding:24px">Kenchain Groups needs JavaScript to run. Please enable it and reload.</p></noscript>
+  <script src="/config.js"></script>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
